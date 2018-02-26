@@ -63,6 +63,8 @@
 	.speedMeter{
 		width: 100%;
 		display: flex;
+		display: block;
+		text-align: center;
 		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: initial;
