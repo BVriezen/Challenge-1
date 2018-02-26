@@ -1,0 +1,35 @@
+let myChart = document.getElementById('myChart').getContext('2d');
+
+			// Global Options
+			Chart.defaults.global.defaultFontFamily = 'Roboto';
+			Chart.defaults.global.defaultFontSize = 18;
+
+
+			let massPopChart = new Chart(myChart, {
+				type: 'line', 
+				data: {
+					labels:['1', '2', '3', '4', '5'],
+					datasets:[{
+						label: 'Times of number',
+						data:[
+							75,
+							25,
+							45,
+							40,
+							70,
+							10   
+						],
+						backgroundColor: 'white' 
+					}]
+				},
+				options:{
+					title:{
+						display: true,
+						text:'Numbers',
+						fontSize: 25
+					},
+					layout:{
+
+					}
+				}
+			});

@@ -1,0 +1,82 @@
+/*Bestand voor Media Queries*/
+
+@media only screen and (min-width: 650px){
+	
+	.information>div>h5{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 700px){
+	
+	.distanceTraveld{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.speedMeter{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.container1{
+		width: 65%;
+	}
+
+	.information{
+		width: 300px;
+		height: 100px;
+		margin-bottom: 3%;
+	}
+
+	.twee{
+		margin-bottom: 10%;
+	}
+
+	.information>div>h5{
+		font-size: 12px;
+	}
+
+	.hide{
+		display: none;
+	}
+}
+
+@media only screen and (min-width:  1000px){
+	
+	.mainContainer{
+		display: grid;
+		grid-template-columns: 50% 50%;
+
+	}
+
+	.distanceTraveld{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		margin: auto 0;
+		width: 100%;
+	}
+
+	.speedMeter{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: initial;
+	}
+
+	.twee{
+		margin-bottom: 0%;
+	}
+
+	.container1{
+		width: 100%;
+	}
+
+	#chart_div{
+		margin: 0 auto;
+	}
+}
