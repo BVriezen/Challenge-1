@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: black;
+	background-color: #333;
 }
 
 h2{
@@ -14,10 +14,19 @@ h2{
 	margin-bottom: 15px;
 }
 
-.distanceTraveld{
-
+.spaceBottom{
+	margin-bottom: 50px;
 }
 
+.containerBar1>h2{
+	margin-top: -46px;
+}
+
+.containerBar2>h2{
+	margin-top: -46px;
+}
+
+/*Speedmeter*/
 #chart_div{
 	display: inline-block;
 	margin: 0 auto;
@@ -28,6 +37,91 @@ svg{
 	margin-left: auto; margin-right: auto;
 }
 
+/*Bar voor brandstof*/
+
+.containerBar1{
+	width: 130px;
+	height: 260px;
+	background-color: black;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.bar1{
+	width: 120px;
+	height: 150px;
+	background-color: white;
+	/*transform: rotate(360deg);*/
+	margin: 0 auto;
+	animation-name: fuelGrow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fuelGrow{
+	0%		{height: 150px}
+	20%		{height: 200px}
+	40%		{height: 250px}
+	60%		{height: 210px}
+	80%		{height: 180px}
+	100%	{height: 150px}
+}
+
+
+/*.procent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  &:after; {
+    animation: showPercent 1s linear infinite alternate;
+    display: block;
+    content: "60%";
+    font-size: 80px;
+  }
+}
+	
+@keyframes showPercent{
+	0%		{content: '60%'}
+	10%		{color: white}
+	20%		{content: '80%'}
+	30%		{color: white}
+	40%		{content: '100%'}
+	50%		{color: white}
+	60%		{content: '84%'}
+	70%		{color: white}
+	80%		{content: '72%'}
+	90%		{color: white}
+	100%	{content: '100%'}
+}*/
+
+.containerBar2{
+	width: 130px;
+	height: 260px;
+	background-color: black;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.bar2{
+	width: 120px;
+	height: 150px;
+	background-color: #ADD8E6;
+	/*transform: rotate(360deg);*/
+	margin: 0 auto;
+	animation-name: fuelGrow;
+	animation-delay: 2s;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+/*Informatieblokken*/
 .information{
 	display: flex;
 	justify-content: space-between;

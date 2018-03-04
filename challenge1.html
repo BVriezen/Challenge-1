@@ -15,13 +15,13 @@
 	</head>
 	<body>
 		<div class="mainContainer">
-		<div class="distanceTraveld">
-			<h2 class="hide">Afstand afgelegd</h2>
+		<div class="distanceTraveld spaceBottom">
 			<div class="container1">
+				<h2 class="hide">Afstand afgelegd</h2>
 				<canvas id="myChart"></canvas>
 			</div>
 			<script src="stastiek.js"></script>
-			<div class="information">
+			<div class="information een">
 				<div>
 					<h5>Afstand afgelegd:</h5>
 					<h5>Afstand ten opzichte van:<br/>totale afstand</h5>
@@ -33,13 +33,10 @@
 					<h5><br />220.000 km</h5>
 				</div>
 			</div>
-			<div class="extraInformation">
-				<h2 class="hide">Totale afstand afgelegd</h2>
-			</div>
 		</div>
-		<div class="speedMeter">
-			<h2 class="hide">Snelheid</h2>
+		<div class="speedMeter spaceBottom">
 			<center>
+				<h2 class="hide">Snelheid</h2>
 				<div id="chart_div"></div>
 			</center>
 
@@ -53,6 +50,75 @@
 					<h5>530 km/per uur</h5>
 					<h5>560 km/per uur</h5>
 					<h5>220.000 km</h5>
+				</div>
+			</div>
+		</div>
+		<div class="barFuel spaceBottom">
+			<div class="containerBar1">
+				<h2>Brandstof</h2>
+				<div class="bar1">
+					<div class="procent"></div>
+				</div>
+			</div>
+
+			<div class="information drie">
+				<div>
+					<h5>Huidige snelheid:</h5>
+					<h5>Gemiddelde snelheid</h5>
+					<h5>Nog af te leggen afstand:</h5>
+				</div>
+				<div>
+					<h5>530 km/per uur</h5>
+					<h5>560 km/per uur</h5>
+					<h5>220.000 km</h5>
+				</div>
+			</div>
+		</div>
+		<div class="water spaceBottom">
+			<div class="containerBar2">
+				<h2>Water</h2>
+				<div class="bar2"></div>
+			</div>
+
+			<div class="information vier">
+				<div>
+					<h5>Water Reserves:</h5>
+					<h5>Gemiddelde concumptie:<br/> water per dag</h5>
+					<h5>Nog af te leggen afstand:</h5>
+				</div>
+				<div>
+					<h5>80.000 liter</h5>
+					<h5>20 liter</h5>
+					<h5><br />220.000 km</h5>
+				</div>
+			</div>
+
+		</div>
+		<div class="food spaceBottom">
+			<div class="container2">
+				<h2>Voedsel</h2>
+				<canvas id="myChart2"></canvas>
+			</div>
+			<script src="stastiek2.js"></script>
+
+			<div class="information vijf">
+				<div>
+					<h5>Voedsel Reserves:</h5>
+					<h5>Gemiddelde consumptie:<br />voedsel per dag:</h5>
+					<h5>Groente:</h5>
+					<h5>Vlees:</h5>
+					<h5>Fruit:</h5>
+					<h5>Zuivelproducten:</h5>
+					<h5>Specerijen:</h5>
+				</div>
+				<div>
+					<h5>50.000 kg</h5>
+					<h5>8 kg</h5>
+					<h5><br />18.000 kg</h5>
+					<h5>15.000 kg</h5>
+					<h5>10.000</h5>
+					<h5>5000 kg</h5>
+					<h5>2000 kg</h5>
 				</div>
 			</div>
 		</div>

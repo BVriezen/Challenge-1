@@ -17,11 +17,42 @@
 
 	.speedMeter{
 		display: flex;
+		margin-left: 70px;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.barFuel{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.containerBar1{
+		margin-left: 154px;
+	}
+
+	.containerBar2{
+		margin-left: 154px;
+	}
+
+	.water{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.food{
+		display: flex;
 		justify-content: space-between;
 		align-items: flex-end;
 	}
 
 	.container1{
+		width: 65%;
+	}
+
+	.container2{
 		width: 65%;
 	}
 
@@ -40,7 +71,16 @@
 	}
 
 	.hide{
-		display: none;
+		/*display: none;*/
+	}
+
+	.een{
+		margin-right: 2%;
+	}
+
+	.vijf{
+		margin-right: 2%;
+		height: 188px;
 	}
 }
 
@@ -70,12 +110,41 @@
 		justify-content: initial;
 	}
 
+	.food{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		margin-top: 60px;
+	}
+
+	.containerBar1{
+		margin-left: 5%;
+		margin-top: 100px;
+	}
+
+	.containerBar2{
+		margin-left: 6%;
+	}
+
 	.twee{
 		margin-bottom: 0%;
 	}
 
 	.container1{
 		width: 100%;
+	}
+
+	.container2{
+		width: 100%;
+	}
+
+	.vijf{
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.een{
+		margin: 0 auto;
 	}
 
 	#chart_div{
